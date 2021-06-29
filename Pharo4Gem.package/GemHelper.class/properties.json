@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Pharo4Gem",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cls",
+		"gemCategory"
+	],
+	"name" : "GemHelper",
+	"type" : "normal"
+}
