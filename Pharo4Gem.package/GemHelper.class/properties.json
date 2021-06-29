@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cls",
-		"gemCategory"
+		"cls"
 	],
 	"name" : "GemHelper",
 	"type" : "normal"
