@@ -21,3 +21,9 @@ GemStone 的开发环境比较折腾，GemTool似乎年久失修。目前我搞�
 
 1. 代码的转换，这个比较容易
 2. GemStone特殊的容器类的Pharo兼容层
+
+## Usage
+
+```smalltalk
+GemHelper exportClass: YourClass  toFile: '/tmp/YourClass.topaz'.
+```
