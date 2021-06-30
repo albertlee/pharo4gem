@@ -25,5 +25,12 @@ GemStone 的开发环境比较折腾，GemTool似乎年久失修。目前我搞�
 ## Usage
 
 ```smalltalk
+"Export YourClass to /tmp/YourClass.topaz file"
 GemHelper exportClass: YourClass  toFile: '/tmp/YourClass.topaz'.
+
+"Export several classes to a dir"
+GemHelper exportClasses: {YourClass1 . YourClass2} toDir: '/tmp/somedir'.
+
+"Export all classes in YourPackageName to a dir (seperate files)"
+GemHelper exportPackage: 'YourPackageName' toDir: '/somedir'.
 ```
