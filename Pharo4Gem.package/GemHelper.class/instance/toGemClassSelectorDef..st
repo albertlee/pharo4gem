@@ -1,7 +1,7 @@
 as yet unclassified
-toGemSelectorDef: selector
+toGemClassSelectorDef: selector
 	^ 'category: ''<1s>''
-method: <2s>
+classmethod: <2s>
 <3s>
 %%
 '
